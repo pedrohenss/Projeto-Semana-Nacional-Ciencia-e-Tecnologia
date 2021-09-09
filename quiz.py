@@ -1,5 +1,4 @@
 
-
 from termcolor import colored
 
 print ( '''
@@ -647,6 +646,186 @@ print('a) Nova York')
 print('b) Washington')
 print('c) Los Angeles')
 print('''d) Chicago
+      ''')
+
+team = input ('Qual time está respondendo? ')
+
+if team == '1':
+
+    resposta = input('Digite uma das opções: ')
+
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
+
+print('''
+Questão n°16
+         ''')
+
+print('Quais são as cores presentes na bandeira da China?')
+print('a) Vermelho e branco')
+print('b) Vermelho e amarelo')
+print('c) Laranja e amarelo')
+print('''d) Vermelho, amarelo e branco
+      ''')
+
+team = input ('Qual time está respondendo? ')
+
+if team == '1':
+
+    resposta = input('Digite uma das opções: ')
+
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
+
+print('''
+Questão n°17
+         ''')
+
+print('Qual é o maior continente em extensão?')
+print('a) Europa')
+print('b) Américo')
+print('c) África')
+print('''d) Ásia
+      ''')
+
+team = input ('Qual time está respondendo? ')
+
+if team == '1':
+
+    resposta = input('Digite uma das opções: ')
+
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
+
+print('''
+Questão n°18
+         ''')
+
+print('Como é o nome da energia gerada pelo vento?')
+print('a) Eólica')
+print('b) Hídrica')
+print('c) Térmica')
+print('''d) Química
+      ''')
+
+team = input ('Qual time está respondendo? ')
+
+if team == '1':
+
+    resposta = input('Digite uma das opções: ')
+
+    if resposta == 'a':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'a':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
+
+print('''
+Questão n°19
+         ''')
+
+print('Você tem 36 laranjas e joga um terço fora, com quantas você fica?')
+print('a) 23')
+print('b) 24')
+print('c) 12')
+print('''d) 18
       ''')
 
 team = input ('Qual time está respondendo? ')
