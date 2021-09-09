@@ -1,4 +1,7 @@
 
+
+from termcolor import colored
+
 print ( '''
            Projeto Semana Nacional da Ciência e Tecnologia 
                         Passa ou Repassa Quiz                
@@ -14,18 +17,41 @@ print ('c) Alcateia')
 print ('''d) Manada
        ''')
 
-resposta = input ('Digite uma das opções: ')
-pontos = 0
+team = input ('Qual time está respondendo? ')
+pontos_team1 = 0
+pontos_team2 = 0
 
-if resposta == 'a':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'a':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'a':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°2
@@ -38,17 +64,39 @@ print ('c) 365')
 print ('''d) 366
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'd':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°3
@@ -61,17 +109,39 @@ print ('c) Ernestro Geisel')
 print ('''d) Emílio Médici
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'b':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°4
@@ -84,17 +154,39 @@ print ('c) Tíbia')
 print ('''d) Fêmur
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'd':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°5
@@ -107,17 +199,39 @@ print ('c) 100')
 print ('''d) 10000
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'c':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°6
@@ -130,17 +244,39 @@ print ('c) Brasil acima de todos')
 print ('''d) Ordem e Progresso
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'd':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°7
@@ -153,17 +289,39 @@ print ('c) Itália')
 print ('''d) Suíça
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'c':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°8
@@ -176,17 +334,39 @@ print ('c) Azul, vermelho e amarelo')
 print ('''d) Vermelho, amarelo e verde
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'c':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°9
@@ -199,17 +379,39 @@ print ('c) Polônia')
 print ('''d) França
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'c':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°10
@@ -222,17 +424,39 @@ print ('c) Francês')
 print ('''d) Angolano
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'b':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°11
@@ -245,17 +469,39 @@ print ('c) 6')
 print ('''d) 8
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'b':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print ('''
 Questão n°12
@@ -268,17 +514,39 @@ print ('c) Barata')
 print ('''d) Percevejo
        ''')
 
-resposta = input ('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'b':
-    print ('Certa resposta!')
-    pontos += 10             #pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print ('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print (f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print('''
 Questão n°13
@@ -291,17 +559,39 @@ print('c) Proclamação da República')
 print('''d) Dia da Consciência Negra
       ''')
 
-resposta = input('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'c':
-    print('Certa resposta!')
-    pontos += 10  # pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print(f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'c':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print('''
 Questão n°14
@@ -314,17 +604,39 @@ print('c) Birdman')
 print('''d) Avatar
       ''')
 
-resposta = input('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'd':
-    print('Certa resposta!')
-    pontos += 10  # pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print(f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'd':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
 
 print('''
 Questão n°15
@@ -337,16 +649,36 @@ print('c) Los Angeles')
 print('''d) Chicago
       ''')
 
-resposta = input('Digite uma das opções: ')
+team = input ('Qual time está respondendo? ')
 
-if resposta == 'b':
-    print('Certa resposta!')
-    pontos += 10  # pontos = pontos + 10
-    print(f'Pontos acumulados até o momento: {pontos}')
+if team == '1':
 
-else:
-    print('Você errou!')
+    resposta = input('Digite uma das opções: ')
 
-    print(f'Pontos acumulados até o momento: {pontos}')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team1 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team1}')
 
+    else:
+        print (colored ('Você errou!', 'red'))
 
+        print (f'Pontos acumulados até o momento: {pontos_team1}')
+
+elif team == '2':
+
+    resposta = input('Digite uma das opções: ')
+    if resposta == 'b':
+        print (colored ('Certa resposta!', 'green'))
+        pontos_team2 += 10             #pontos = pontos + 10
+        print(f'Pontos acumulados até o momento: {pontos_team2}')
+
+    else:
+        print (colored ('Você errou!', 'red'))
+
+        print (f'Pontos acumulados até o momento: {pontos_team2}')
+
+skip = input ('Deseja continuar? ')
+
+if skip == 'sim':
+    print ('Continuando...')
